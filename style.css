@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.counter{
+    text-align: center;
+    background: rgb(243, 243, 243);
+    width: 50%;
+    margin: 40px auto;
+}
+.text{
+    font-size: 24px;
+    padding: 30px 10px;
+}
+.value{
+    font-size: 24px;
+}
+.btn{
+    padding: 30px 10px;
+}
