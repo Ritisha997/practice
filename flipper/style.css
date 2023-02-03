@@ -1,0 +1,76 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list, h4{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+}
+.nav-list li, h4{
+    padding: 20px 30px;
+
+}
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+  }
+  .container {
+    text-align: center;
+  }
+  .container h2 {
+    background: rgb(46, 45, 45);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .color {
+    color: red;
+  }
+  .btn {
+    text-transform: uppercase;
+    background: transparent;
+    color: rgb(27, 27, 27);
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid rgb(27, 27, 27);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+  .btn:hover {
+    color: #fff;
+    background: rgb(32, 32, 32);
+  }
+  h2{
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+  h4{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+  .nav-list a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: black;
+    
+  }
+  .nav-list a:hover {
+    color: rgb(142, 75, 219);
+  }

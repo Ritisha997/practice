@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-center {
+    background: #f1efef;
+    transition: all 0.3s linear;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  .section-center:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  .alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+  }
+  .alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  .alert-success {
+    color: #155724;
+    background: #d4edda;
+  }
+  .grocery-form h3 {
+    color: rgb(89, 201, 245);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .form-control {
+    display: flex;
+    justify-content: center;
+  }
+  #grocery {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: rgb(197, 197, 197);
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: rgb(0, 0, 0);
+  }
+  #grocery::placeholder {
+    color: rgb(119, 118, 118);
+  }
+  .submit-btn {
+    background: rgb(5, 187, 172);
+    border-color: transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3 linear;
+    font-size: 0.85rem;
+  }
+  .submit-btn:hover {
+    background: rgb(6, 100, 100);
+    color: #fff;
+  }
+  
+  .grocery-container {
+    margin-top: 2rem;
+    transition: all 0.3s linear;
+    visibility: hidden;
+  }
+  .show-container {
+    visibility: visible;
+  }
+  .grocery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s linear;
+    padding: 0.25rem 1rem;
+    text-transform: capitalize;
+  }
+  .grocery-item:hover {
+    color: rgb(0, 0, 0);
+    background: rgba(204, 201, 201, 0.575);
+  }
+  .grocery-item:hover .title {
+    color: rgb(12, 12, 12);
+  }
+  .title {
+    margin-bottom: 0;
+    color: rgb(12, 12, 12);
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+  }
+  .edit-btn,
+  .delete-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+    transition: all 0.3s linear;
+  }
+  .edit-btn {
+    color: rgb(4, 194, 4);
+  }
+  .edit-btn:hover {
+    color: rgb(13, 161, 13);
+  }
+  .delete-btn {
+    color: rgb(241, 4, 4);
+  }
+  .delete-btn:hover {
+    color: red;
+  }
+  .clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: rgb(241, 4, 4);
+    margin: 0 auto;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top: 1.25rem;
+  }
+  .clear-btn:hover {
+    color: red;
+  }
